@@ -1,0 +1,161 @@
+.dir {
+  padding-top: 50px;
+}
+
+.boton {
+  padding-top: 5px;
+  margin-left: 70px;
+  font-size: 220%;
+  background: black solid;
+  text-align: left;
+  text-decoration: none;
+  list-style: none;
+}
+.botonedit {
+  background-color: black;
+  color: white;
+  font-family: elianto;
+  height: 40px;
+  width: 20%;
+  border-radius: 50px;
+  font-size: 50%;
+}
+
+.botonedit:hover {
+  background-color: white;
+  color: black;
+  font-family: elianto;
+  height: 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.tit {
+  padding-top: 5px;
+  margin-left: 70px;
+  font-size: 220%;
+  text-align: left;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-family: Elianto;
+}
+.lore {
+  padding-top: 0px;
+}
+.cuadrado-home {
+  width: 40%;
+  height: 475px;
+  background-color: white;
+  margin-left: 30%;
+  margin-top: 1%;
+  padding: 2%;
+  opacity: 0.7;
+  border-radius: 30px;
+}
+
+.nombress-home {
+  color: white;
+  list-style: none;
+  font-family: Acumin Variable Concept;
+  font-size: 125%;
+  padding-top: 0px;
+  padding-left: 50px;
+}
+
+.nombres-home {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.siglas-home {
+  color: white;
+  list-style: none;
+  font-family: Acumin Variable Concept;
+  font-size: 400%;
+  margin-right: 90px;
+  float: right;
+}
+
+@media screen and (max-width: 959px) {
+  .siglas-home {
+    color: white;
+    list-style: none;
+    font-family: Acumin Variable Concept;
+    font-size: 300%;
+    margin-right: 20px;
+
+    float: right;
+  }
+
+  .nombres-home {
+    padding-top: 0px;
+  }
+  .nombress-home {
+    color: white;
+    list-style: none;
+    font-family: Acumin Variable Concept;
+    font-size: 115%;
+    padding-top: 0px;
+    padding-left: 10px;
+  }
+
+  .dir {
+    padding-top: 10px;
+  }
+
+  .boton {
+    padding-top: 5px;
+    margin-left: 50px;
+    font-size: 130%;
+    background: black solid;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+  }
+  .botonedit {
+    background-color: black;
+    color: white;
+    font-family: elianto;
+    height: 40px;
+    width: 20%;
+    border-radius: 50px;
+    font-size: 50%;
+  }
+
+  .botonedit:hover {
+    background-color: white;
+    color: black;
+    font-family: elianto;
+    height: 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+  }
+
+  .tit-home {
+    width: 45%;
+    padding-top: 5px;
+    margin-left: 50px;
+    font-size: 100%;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: Elianto;
+  }
+
+  .tit-img-home {
+    width: 441px;
+  }
+  .lore {
+    padding-top: 0px;
+  }
+  .cuadrado-home {
+    width: 40%;
+    height: auto;
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    opacity: 0.7;
+    border-radius: 30px;
+  }
+}
